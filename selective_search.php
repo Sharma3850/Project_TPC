@@ -21,6 +21,9 @@
             color: #fff;
             text-align: center;
             padding: 20px;
+            width: 100%;
+            /* Make the heading full width */
+            box-sizing: border-box;
         }
 
         .filter-section {
@@ -130,7 +133,7 @@
         <button onclick="search()">Search</button>
     </div>
 
-    
+
     <?php
     // Assuming you have a database connection
     $servername = "localhost";
